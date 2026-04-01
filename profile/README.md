@@ -34,6 +34,9 @@ Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack y
 | [frr](https://github.com/agentic-stacks/frr) | Networking | Teaches AI agents to deploy, configure, operate, troubleshoot, and develop FRR (Free Range Routing) |
 | [ipxe](https://github.com/agentic-stacks/ipxe) | Networking | Teaches agents to build, deploy, and operate iPXE network boot infrastructure across bare metal, virtual, and cloud environments |
 | [ansible](https://github.com/agentic-stacks/ansible) | Automation | Fleet automation — teaches agents to write, deploy, test, and troubleshoot Ansible automation |
+| [terraform](https://github.com/agentic-stacks/terraform) | Automation | Infrastructure as Code provisioning — providers, state, modules |
+| [prometheus-grafana](https://github.com/agentic-stacks/prometheus-grafana) | Observability | Monitoring stack — teaches AI agents to deploy, configure, operate, and troubleshoot Prometheus metrics collection, Grafana dashboards, Alertmanager notifications, and the exporter ecosystem |
+| [rails](https://github.com/agentic-stacks/rails) | Other | Ruby on Rails full-stack and API-only web application framework |
 <!-- STACKS-TABLE-END -->
 
 ### Links
