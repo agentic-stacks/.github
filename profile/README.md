@@ -1,8 +1,23 @@
 # Agentic Stacks
 
-Installable skill packs that give AI agents deep domain expertise.
+**Composed domain expertise for AI coding agents.**
 
-Pull a stack into your project and your AI agent instantly knows how to deploy OpenStack, manage server hardware, operate Kubernetes clusters, and more. Stacks teach agents *and* humans — amplifying what you can accomplish together.
+Pull a stack into your project and your agent instantly knows how to deploy, operate, troubleshoot, and upgrade the target software — with verified commands, safety rules, and version-specific knowledge. Skills live on your machine, reducing token usage by skipping research every session.
+
+Works with Claude Code, Codex CLI, Gemini, Cursor, and any agent that reads markdown.
+
+### How It Works
+
+```bash
+pipx install agentic-stacks
+agentic-stacks init my-deployment
+cd my-deployment
+agentic-stacks pull kubernetes-talos
+agentic-stacks pull hardware-dell
+claude
+```
+
+Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack you've pulled.
 
 ### Available Stacks
 
@@ -20,17 +35,9 @@ Pull a stack into your project and your AI agent instantly knows how to deploy O
 | [ipxe](https://github.com/agentic-stacks/ipxe) | Networking | Teaches agents to build, deploy, and operate iPXE network boot infrastructure across bare metal, virtual, and cloud environments |
 <!-- STACKS-TABLE-END -->
 
-### Get Started
-
-```bash
-pip install agentic-stacks
-agentic-stacks init agentic-stacks/openstack-kolla my-deployment
-cd my-deployment
-agentic-stacks pull hardware-dell
-```
-
 ### Links
 
-- [Browse Stacks](https://www.agentic-stacks.com/stacks)
-- [Getting Started](https://www.agentic-stacks.com/docs/getting-started)
-- [Author a Stack](https://www.agentic-stacks.com/docs/authoring)
+- [Browse Stacks](https://www.agentic-stacks.com/stacks) — search and discover
+- [Getting Started](https://www.agentic-stacks.com/docs/getting-started) — install and first project
+- [Author a Stack](https://www.agentic-stacks.com/docs/authoring) — build your own
+- [Stack Factory](https://github.com/agentic-stacks/stack-factory) — automated stack creation pipeline
