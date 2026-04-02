@@ -26,10 +26,9 @@ Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack y
 |-------|----------|-------------|
 | [docker](https://github.com/agentic-stacks/docker) | Platform | Complete operational knowledge for building, deploying, managing, and troubleshooting production containerized applications using Docker Engine |
 | [kubernetes-talos](https://github.com/agentic-stacks/kubernetes-talos) | Platform | Complete operational knowledge for deploying, managing, and operating production Kubernetes clusters using Talos Linux |
+| [openstack-core](https://github.com/agentic-stacks/openstack-core) | Platform | Comprehensive operational knowledge for all major OpenStack services |
 | [openstack-kolla](https://github.com/agentic-stacks/openstack-kolla) | Platform | Agent-driven OpenStack cloud deployment and operations using kolla-ansible |
-| [proxmox](https://github.com/agentic-stacks/proxmox) | Platform | Hypervisor management — VM lifecycle, storage, networking, clustering |
 | [ceph](https://github.com/agentic-stacks/ceph) | Storage | Complete operational knowledge for deploying, managing, and operating production Ceph storage clusters using cephadm on bare metal |
-| [minio](https://github.com/agentic-stacks/minio) | Storage | S3-compatible object storage — deployment, buckets, replication, monitoring |
 | [hardware-dell](https://github.com/agentic-stacks/hardware-dell) | Hardware | Teaches AI agents to manage Dell PowerEdge server hardware — BIOS configuration, iDRAC remote management, RAID setup, firmware updates, and hardware inventory |
 | [hardware-hpe](https://github.com/agentic-stacks/hardware-hpe) | Hardware | Complete operational knowledge for administering HPE ProLiant Gen10 and Gen11 servers |
 | [hardware-supermicro](https://github.com/agentic-stacks/hardware-supermicro) | Hardware | Teaches AI agents to manage Supermicro server hardware — BMC configuration, BIOS management, RAID setup, firmware updates, and hardware inventory |
@@ -38,7 +37,6 @@ Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack y
 | [ansible](https://github.com/agentic-stacks/ansible) | Automation | Fleet automation — teaches agents to write, deploy, test, and troubleshoot Ansible automation |
 | [terraform](https://github.com/agentic-stacks/terraform) | Automation | Infrastructure as Code provisioning — teaches AI agents to operate Terraform and OpenTofu across the full lifecycle: project setup, provider configuration, state management, modules, CI/CD integration, upgrades, and troubleshooting |
 | [prometheus-grafana](https://github.com/agentic-stacks/prometheus-grafana) | Observability | Monitoring stack — teaches AI agents to deploy, configure, operate, and troubleshoot Prometheus metrics collection, Grafana dashboards, Alertmanager notifications, and the exporter ecosystem |
-| [linux](https://github.com/agentic-stacks/linux) | Other | OS-level operations — systemd, networking, storage, performance tuning |
 | [rails](https://github.com/agentic-stacks/rails) | Other | Ruby on Rails full-stack and API-only web application framework |
 <!-- STACKS-TABLE-END -->
 
