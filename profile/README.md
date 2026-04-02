@@ -31,10 +31,12 @@ Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack y
 | [hardware-dell](https://github.com/agentic-stacks/hardware-dell) | Hardware | Teaches AI agents to manage Dell PowerEdge server hardware — BIOS configuration, iDRAC remote management, RAID setup, firmware updates, and hardware inventory |
 | [hardware-hpe](https://github.com/agentic-stacks/hardware-hpe) | Hardware | Complete operational knowledge for administering HPE ProLiant Gen10 and Gen11 servers |
 | [hardware-supermicro](https://github.com/agentic-stacks/hardware-supermicro) | Hardware | Teaches AI agents to manage Supermicro server hardware — BMC configuration, BIOS management, RAID setup, firmware updates, and hardware inventory |
+| [hpe-hardware](https://github.com/agentic-stacks/hpe-hardware) | Hardware | Complete operational knowledge for administering HPE ProLiant Gen10 and Gen11 servers |
+| [supermicro-hardware](https://github.com/agentic-stacks/hardware-supermicro) | Hardware | Teaches AI agents to manage Supermicro server hardware — BMC configuration, BIOS management, RAID setup, firmware updates, and hardware inventory |
 | [frr](https://github.com/agentic-stacks/frr) | Networking | Teaches AI agents to deploy, configure, operate, troubleshoot, and develop FRR (Free Range Routing) |
 | [ipxe](https://github.com/agentic-stacks/ipxe) | Networking | Teaches agents to build, deploy, and operate iPXE network boot infrastructure across bare metal, virtual, and cloud environments |
 | [ansible](https://github.com/agentic-stacks/ansible) | Automation | Fleet automation — teaches agents to write, deploy, test, and troubleshoot Ansible automation |
-| [terraform](https://github.com/agentic-stacks/terraform) | Automation | Infrastructure as Code provisioning — providers, state, modules |
+| [terraform](https://github.com/agentic-stacks/terraform) | Automation | Infrastructure as Code provisioning — teaches AI agents to operate Terraform and OpenTofu across the full lifecycle: project setup, provider configuration, state management, modules, CI/CD integration, upgrades, and troubleshooting |
 | [prometheus-grafana](https://github.com/agentic-stacks/prometheus-grafana) | Observability | Monitoring stack — teaches AI agents to deploy, configure, operate, and troubleshoot Prometheus metrics collection, Grafana dashboards, Alertmanager notifications, and the exporter ecosystem |
 | [rails](https://github.com/agentic-stacks/rails) | Other | Ruby on Rails full-stack and API-only web application framework |
 <!-- STACKS-TABLE-END -->
