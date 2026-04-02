@@ -2,7 +2,7 @@
 
 **Composed domain expertise for AI coding agents.**
 
-Pull a stack into your project and your agent instantly knows how to deploy, operate, troubleshoot, and upgrade the target software — with verified commands, safety rules, and version-specific knowledge. Skills live on your machine, reducing token usage by skipping research every session.
+Pull a stack into your project and your agent instantly knows how to deploy, operate, troubleshoot, and upgrade the target software — with verified commands, safety rules, and version-specific knowledge. Every stack also includes a training mode — ask the agent to teach you the domain and it builds an interactive curriculum from the stack's skills.
 
 Works with Claude Code, Codex CLI, Gemini, Cursor, and any agent that reads markdown.
 
@@ -18,6 +18,19 @@ claude
 ```
 
 Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack you've pulled.
+
+### Learn from Your Stacks
+
+Every stack ships with a training skill. Ask the agent to teach you and it switches to interactive tutor mode:
+
+```
+> train me on this stack
+> train me on RAID management
+> quiz me
+> what should I learn next?
+```
+
+Stacks teach agents *and* humans — useful for onboarding, cross-training, and learning new domains.
 
 ### Available Stacks
 
