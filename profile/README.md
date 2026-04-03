@@ -2,7 +2,7 @@
 
 **Composed domain expertise for AI coding agents.**
 
-Pull a stack into your project and your agent instantly knows how to deploy, operate, troubleshoot, and upgrade the target software — with verified commands, safety rules, and version-specific knowledge. Every stack also includes a training mode — ask the agent to teach you the domain and it builds an interactive curriculum from the stack's skills.
+Pull a stack into your project and your agent instantly knows how to deploy, operate, troubleshoot, and upgrade the target software — with verified commands, safety rules, and version-specific knowledge. Every project includes [common-skills](https://github.com/agentic-stacks/common-skills) — training, guided walkthroughs, orientation, and feedback capture that work across all domain stacks.
 
 Works with Claude Code, Codex CLI, Gemini, Cursor, and any agent that reads markdown.
 
@@ -19,18 +19,23 @@ claude
 
 Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack you've pulled.
 
-### Learn from Your Stacks
+### Common Skills
 
-Every stack ships with a training skill. Ask the agent to teach you and it switches to interactive tutor mode:
+[`common-skills`](https://github.com/agentic-stacks/common-skills) is pulled automatically on `agentic-stacks init` and provides:
+
+| Skill | What It Does |
+|-------|-------------|
+| **training** | Interactive teaching — builds a curriculum from pulled stacks |
+| **guide** | Guided walkthroughs — assesses your environment, walks you through tasks |
+| **orientation** | Project overview — summarizes all pulled stacks and capabilities |
+| **feedback** | Captures learnings — writes fixes to domain stacks for upstream PRs |
 
 ```
 > train me on this stack
-> train me on RAID management
-> quiz me
-> what should I learn next?
+> guide me through deploying Kubernetes
+> what can you help me with?
+> capture that NTP fix we just did
 ```
-
-Stacks teach agents *and* humans — useful for onboarding, cross-training, and learning new domains.
 
 ### Available Stacks
 
