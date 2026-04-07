@@ -57,6 +57,7 @@ Your agent reads `.stacks/*/CLAUDE.md` and combines expertise from every stack y
 | [prometheus-grafana](https://github.com/agentic-stacks/prometheus-grafana) | Observability | Monitoring stack — teaches AI agents to deploy, configure, operate, and troubleshoot Prometheus metrics collection, Grafana dashboards, Alertmanager notifications, and the exporter ecosystem |
 | [common-skills](https://github.com/agentic-stacks/common-skills) | Other | Cross-cutting skills for all agentic stacks projects — interactive training, guided walkthroughs, project orientation, and operational feedback capture |
 | [linux](https://github.com/agentic-stacks/linux) | Other | Comprehensive Linux systems administration — from installation through day-two operations |
+| [postgresql](https://github.com/agentic-stacks/postgresql) | Other | Agent-driven PostgreSQL deployment and operations covering the full lifecycle: installation, configuration, high availability, backup/restore, performance tuning, security, and day-two operations across bare metal, containerized, and Kubernetes environments |
 | [rails](https://github.com/agentic-stacks/rails) | Other | Ruby on Rails full-stack and API-only web application framework |
 <!-- STACKS-TABLE-END -->
 
